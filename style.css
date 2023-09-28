@@ -45,10 +45,27 @@ body{
 }
 .secondePartie{
     background-color: #4BCAFF;
-    height: 100px;
-    width: 100vw;
+
+}
+.grandTitre{
+    display: flex;
+    padding-left: 15vw;
+    padding-top: 10vh;
 }
 .titre{
     color: white;
+    font-size: 40px;
+}
+.detailBleu
 
+.argument{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+}
+
+p{
+    font-size: 15px;
+    fo
 }
