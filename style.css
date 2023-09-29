@@ -26,6 +26,18 @@ body{
     padding-left: 20px ;
     border: #4BCAFF 4px solid;
 }
+.visitMe{
+    font-weight: bolder;
+    text-decoration: None;
+    font-size: 1.2em;
+    padding-top: 12px ;
+    padding-right: 40px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    border: #353F46 4px solid;
+    color: #353F46;
+    font-family: "Roboto Light",sans-serif;
+}
 .maj{
     text-transform: uppercase;
 
@@ -46,26 +58,23 @@ p{
     color: #4BCAFF;
 }
 .grandTitre{
-    margin-bottom: 12vh;
+
     font-size: 30px;
     padding-left: 8%;
-
 }
-
 .titre{
     font-size: 30px;
 }
 .textenoir{
     color: black;
     font-family: "Roboto Light",sans-serif;}
-
 .portfolio{
     border-bottom: black 3px solid;
     padding-bottom: 3px;
 }
 .imgPhoto{
-    height: 212px;
-    width: 285px;
+    height: 26.2vh;
+    width: 18.5vw;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,7 +84,6 @@ p{
 .un{
 background-image: url("images/portfolio/1.png");
 }
-
 .deux{
     background-image: url("images/portfolio/2.png");
 }
@@ -98,19 +106,12 @@ background-image: url("images/portfolio/1.png");
     background-image: url("images/portfolio/8.png");
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.vidéo{
+    background-image: url("images/social/img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 /*####################################################*/
 .accueil{
     background-image: url(images/HERO.jpg) ;
@@ -119,7 +120,6 @@ background-image: url("images/portfolio/1.png");
     background-size: cover;
     background-position: center;
 }
-
 .navigbar{
     background-color: rgba(0, 0, 0, 0.6);
     height: 14%;
@@ -128,34 +128,31 @@ background-image: url("images/portfolio/1.png");
     align-items: center;
     padding-left: 8%;
     padding-right: 9%;}
-
-
-
 .punchline{
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;}
-
-
 .secondePartie{
     background-color: #4BCAFF;
-
     padding-bottom: 5%;
     padding-top: 5%;
+
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 .argumentation{
-
-    display: flex;
-    justify-content: space-between;
+    margin-top: 12vh;
     padding-left: 8%;
     padding-right: 9%;
+    display: flex;
+    justify-content: space-between;
+
+
+
 
 }
 .argument{
@@ -169,15 +166,13 @@ background-image: url("images/portfolio/1.png");
 .iconebleu{
     width: fit-content;
     margin-bottom: 2vh;}
-
 .thirdPhotos{
 
-    background-color: white;
+    background-color: #ffffff;
     width: 100vw;
 
     padding-bottom: 5%;
-    padding-top: 5%;
-
+    padding-top: 5%;}
 .navigbar2{
     padding-left: 8%;
     padding-right: 9%;
@@ -186,7 +181,6 @@ background-image: url("images/portfolio/1.png");
     flex-direction: row;
     justify-content: space-between;
 }
-
 .photographies{
     padding-left: 8vw;
     padding-right: 9vw;
@@ -195,10 +189,30 @@ background-image: url("images/portfolio/1.png");
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.quatrePartie{
+.gris{
     background-color: #515F67;
     padding-bottom: 5%;
-    padding-top: 5%;
+    padding-top: 6%;
     width: 100vw;
-height: 100px
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gauche{
+
+    margin-left: 8%;
+}
+.description{
+    margin-top: 3%;
+    width: 42%;
+    margin-bottom: 3%;
+}
+.reo{
+    background-image: url("images/social/img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 50vh;
+    width: auto;
 }
