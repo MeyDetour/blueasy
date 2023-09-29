@@ -13,11 +13,18 @@ body{
     text-decoration: None;
     font-size: 1.2em;
 }
+.cal{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.espace{
+    margin-right: 90px;
+}
 .bordure{
     padding: 8px;
     padding-right: 20px;
     padding-left: 20px ;
-    border: #4BCAFF 3px solid;
+    border: #4BCAFF 4px solid;
 }
 .maj{
     text-transform: uppercase;
@@ -51,6 +58,57 @@ p{
 .textenoir{
     color: black;
     font-family: "Roboto Light",sans-serif;}
+
+.portfolio{
+    border-bottom: black 3px solid;
+    padding-bottom: 3px;
+}
+.imgPhoto{
+    height: 212px;
+    width: 285px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 16px;
+    margin-top:17px;
+}
+.un{
+background-image: url("images/portfolio/1.png");
+}
+
+.deux{
+    background-image: url("images/portfolio/2.png");
+}
+.trois{
+    background-image: url("images/portfolio/3.png");
+}
+.quatre{
+    background-image: url("images/portfolio/4.png");
+}
+.cinq{
+    background-image: url("images/portfolio/5.png");
+}
+.six{
+    background-image: url("images/portfolio/6.png");
+}
+.sept{
+    background-image: url("images/portfolio/7.png");
+}
+.huit{
+    background-image: url("images/portfolio/8.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*####################################################*/
@@ -113,7 +171,34 @@ p{
     margin-bottom: 2vh;}
 
 .thirdPhotos{
+
     background-color: white;
     width: 100vw;
 
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+.navigbar2{
+    padding-left: 8%;
+    padding-right: 9%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.photographies{
+    padding-left: 8vw;
+    padding-right: 9vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.quatrePartie{
+    background-color: #515F67;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 100vw;
+height: 100px
 }
