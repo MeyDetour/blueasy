@@ -7,6 +7,12 @@ body{
     color: white;
     font-family: "Roboto Light",sans-serif;}
 
+.textegris{
+    font-family: "Roboto Light",sans-serif;
+    font-weight: bolder;
+    color: #939596;
+    border-inline: black;
+}
 .option{
     margin: 8px;
     font-weight: bolder;
@@ -26,14 +32,18 @@ body{
     padding-left: 20px ;
     border: #4BCAFF 4px solid;
 }
+.separation{
+    border-right: #939596   3px solid;
+    padding-right: 23px;
+}
 .visitMe{
     font-weight: bolder;
     text-decoration: None;
     font-size: 1.2em;
     padding-top: 12px ;
-    padding-right: 40px;
+    padding-right: 48px;
     padding-bottom: 12px;
-    padding-left: 40px;
+    padding-left: 48px;
     border: #353F46 4px solid;
     color: #353F46;
     font-family: "Roboto Light",sans-serif;
@@ -45,7 +55,7 @@ body{
 .phrase{
     background-color: rgba(0, 0, 0, 0.32);
     font-size: 45px;
-    margin: 20px;
+    margin: 10px;
 
 }
 .sousligne{border-bottom: white 3px solid;
@@ -119,6 +129,10 @@ background-image: url("images/portfolio/1.png");
     width: 100vw;
     background-size: cover;
     background-position: center;
+    filter: grayscale(70%);
+
+
+
 }
 .navigbar{
     background-color: rgba(0, 0, 0, 0.6);
@@ -126,8 +140,11 @@ background-image: url("images/portfolio/1.png");
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 8%;
-    padding-right: 9%;}
+    padding-left: 9%;
+    padding-right: 9%;
+
+}
+
 .punchline{
     height: 100%;
     display: flex;
@@ -139,7 +156,7 @@ background-image: url("images/portfolio/1.png");
     background-color: #4BCAFF;
     padding-bottom: 5%;
     padding-top: 5%;
-    padding-left: 8%;
+    padding-left: 9%;
     padding-right: 9%;
 
     width: 84vw;
@@ -161,7 +178,7 @@ background-image: url("images/portfolio/1.png");
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 20%;
+    width: 22%;
     height: 50%;
 
 }
@@ -174,21 +191,20 @@ background-image: url("images/portfolio/1.png");
 .thirdPhotos{
 
     background-color: #ffffff;
-    width: 100vw;
-
+    width: 84vw;
+    padding-left: 9%;
+    padding-right: 9%;
     padding-bottom: 5%;
     padding-top: 5%;}
 .navigbar2{
-    padding-left: 8%;
-    padding-right: 9%;
+
     margin-bottom: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .photographies{
-    padding-left: 8vw;
-    padding-right: 9vw;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -198,16 +214,15 @@ background-image: url("images/portfolio/1.png");
 .gris{
     background-color: #515F67;
     padding-bottom: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
     padding-top: 6%;
-    width: 100vw;
+    width: 84vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.gauche{
 
-    margin-left: 8%;
-}
 .description{
     margin-top: 8%;
     width: 37vw;
@@ -220,7 +235,8 @@ background-image: url("images/portfolio/1.png");
     background-repeat: no-repeat;
     height: 62vh;
     width: 39vw;
-    margin-right: 8%;
+
+
 }
 
 .cinqpartie{
@@ -228,8 +244,8 @@ background-image: url("images/portfolio/1.png");
     width: 84vw;
     padding-bottom: 5%;
     padding-top: 5%;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 9%;
+    padding-right: 9%;
 }
 .twitter{
     display: flex;
@@ -242,8 +258,8 @@ background-image: url("images/portfolio/1.png");
     background-color:#8CB3D7;
     padding-bottom: 5%;
     padding-top: 5%;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 9%;
+    padding-right: 9%;
     width: 84vw;}
 .pomme{
     display: flex;
@@ -259,8 +275,8 @@ background-image: url("images/portfolio/1.png");
     background-color: white;
     padding-bottom: 5%;
     padding-top: 5%;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 9%;
+    padding-right: 9%;
 }
 .test{
     display: flex;
@@ -270,11 +286,15 @@ background-image: url("images/portfolio/1.png");
 }
 .huitPartie{
     background-color: #8CB3D7;
+    width: 101vw;
+
+}
+.formulaire{
+    height: 84vh;
     padding-bottom: 5%;
     padding-top: 5%;
-    padding-left: 8%;
-    padding-right: 8%;
-    width: 84vw;
+    padding-left: 9%;
+    padding-right: 9%;
 }
 .name{
     border : #A7C0D9 2px solid;
@@ -283,15 +303,16 @@ background-image: url("images/portfolio/1.png");
     padding-bottom: 6px;
     padding-top: 18px;
     padding-left: 5px;
-    padding-right: 29vw ;
+    padding-right: 27vw ;
     margin-top: 5px;
     margin-bottom: 5px;
     }
-input[type=text]:focus{background-color: #8baacc;
+input{background-color: #8baacc;
     outline: none;
 }
-input[type=area]:focus{background-color:  #8baacc;
-outline:none }
+label{
+    font-weight: bolder;
+}
 .area{
     height: 22vh;
     width: 54vw;
@@ -304,4 +325,15 @@ outline:none }
     border : none;
     width: 20vw;
     height: 9vh;
+}
+.bandeauDeFin{
+    background-color: rgba(0, 0, 0, 0.36);
+    width: 77vw;
+    padding-right: 15vw;
+    padding-left: 10vw;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
