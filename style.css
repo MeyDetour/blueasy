@@ -3,9 +3,59 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
+.texte{
+    color: white;
+    font-family: "Roboto Light",sans-serif;}
 
+.option{
+    margin: 8px;
+    font-weight: bolder;
+    text-decoration: None;
+    font-size: 1.2em;
+}
+.bordure{
+    padding: 8px;
+    padding-right: 20px;
+    padding-left: 20px ;
+    border: #4BCAFF 3px solid;
+}
+.maj{
+    text-transform: uppercase;
+
+}
+.phrase{
+    background-color: rgba(0, 0, 0, 0.32);
+    font-size: 45px;
+    margin: 20px;
+
+}
+.sousligne{border-bottom: white 3px solid;
+    padding-bottom: 3px;}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+.bleu{
+    color: #4BCAFF;
+}
+.grandTitre{
+    margin-bottom: 12vh;
+    font-size: 30px;
+    padding-left: 8%;
+
+}
+
+.titre{
+    font-size: 30px;
+}
+.textenoir{
+    color: black;
+    font-family: "Roboto Light",sans-serif;}
+
+
+/*####################################################*/
 .accueil{
-    background-image: url(images/HERO.jpg);
+    background-image: url(images/HERO.jpg) ;
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -18,71 +68,52 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 9%;}
 
-}
 
-.texte{
-    color: white;
-    font-family: "Roboto Light",sans-serif;
-}
-.option{
-    margin: 5px;
-    font-weight: bolder;
 
-}
-.maj{
-    text-transform: uppercase;
-}
-.corps{
-
-    height: 90vh;
+.punchline{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;}
 
-}
-.phrase{
-    background-color: rgba(0, 0, 0, 0.32);
-    font-size: 35px;
 
-}
 .secondePartie{
     background-color: #4BCAFF;
 
-}
-.grandTitre{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 100vw;
     display: flex;
-    padding-left: 15vw;
-    padding-top: 10vh;
-}
-.titre{
-    color: white;
-    font-size: 40px;
-}
-.detailBleu{
-    margin-top: 2%;
-    display: flex;
-    justify-content: space-around;
-}
+    flex-direction: column;
+    justify-content: space-between;
 
+}
+.argumentation{
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 9%;
+
+}
 .argument{
     display: flex;
     flex-direction: column;
-    width: 20vw;
-    height: 50vh;
+    justify-content: space-between;
+    width: 20%;
+    height: 50%;
 
 }
-.bleu{
-    color: #4BCAFF;
-}
-.img{
-    height: 18%;
-    width: 12%;
-}
-p{
-    font-size: 15px;
-    fo
+.iconebleu{
+    width: fit-content;
+    margin-bottom: 2vh;}
+
+.thirdPhotos{
+    background-color: white;
+    width: 100vw;
+
 }
