@@ -3,7 +3,7 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
-.texte{
+.texteblanc{
     color: white;
     font-family: "Roboto Light",sans-serif;}
 
@@ -50,25 +50,25 @@ body{
 }
 .sousligne{border-bottom: white 3px solid;
     padding-bottom: 3px;}
+
 p{
     font-size: 20px;
     text-align: justify;
 }
 .bleu{
     color: #4BCAFF;
+    font-weight: bolder;
+    font-family: "Roboto Light",sans-serif;
 }
-.grandTitre{
 
-    font-size: 30px;
-    padding-left: 8%;
-}
+
 .titre{
-    font-size: 30px;
+    font-size: 2em;
 }
 .textenoir{
     color: black;
     font-family: "Roboto Light",sans-serif;}
-.portfolio{
+.sousligneNoir{
     border-bottom: black 3px solid;
     padding-bottom: 3px;
 }
@@ -134,20 +134,22 @@ background-image: url("images/portfolio/1.png");
     justify-content: center;
     align-items: center;
     flex-direction: column;}
+
 .secondePartie{
     background-color: #4BCAFF;
     padding-bottom: 5%;
     padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 9%;
 
-    width: 100vw;
+    width: 84vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .argumentation{
     margin-top: 12vh;
-    padding-left: 8%;
-    padding-right: 9%;
+
     display: flex;
     justify-content: space-between;
 
@@ -165,7 +167,10 @@ background-image: url("images/portfolio/1.png");
 }
 .iconebleu{
     width: fit-content;
-    margin-bottom: 2vh;}
+
+    margin : 4px }
+
+
 .thirdPhotos{
 
     background-color: #ffffff;
@@ -189,30 +194,85 @@ background-image: url("images/portfolio/1.png");
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .gris{
     background-color: #515F67;
     padding-bottom: 5%;
     padding-top: 6%;
     width: 100vw;
-    height: 1000px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .gauche{
 
     margin-left: 8%;
 }
 .description{
-    margin-top: 3%;
-    width: 42%;
-    margin-bottom: 3%;
+    margin-top: 8%;
+    width: 37vw;
+    margin-bottom: 8%;
 }
-.reo{
+.droite{
     background-image: url("images/social/img.png");
-    background-position: center;
+
     background-size: cover;
     background-repeat: no-repeat;
-    max-height: 50vh;
-    width: auto;
+    height: 62vh;
+    width: 39vw;
+    margin-right: 8%;
+}
+
+.cinqpartie{
+    background-color: #4BCAFF;
+    width: 84vw;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.twitter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.sixPartie{
+    background-color:#8CB3D7;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 84vw;}
+.pomme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.applepie{
+    width: 40vw;
+}
+
+.septPartie{
+    background-color: white;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10vh;
+}
+.huitPartie{
+    background-color: #8CB3D7;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 84vw;
 }
