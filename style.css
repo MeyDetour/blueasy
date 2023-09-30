@@ -313,10 +313,6 @@ input{background-color: #8baacc;
 label{
     font-weight: bolder;
 }
-.area{
-    height: 22vh;
-    width: 54vw;
-}
 .bouton{
     font-weight: bolder;
     font-size: 1.1em;
